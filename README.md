@@ -1,2 +1,7 @@
 # Image_Recognition
- Dog's Recognition
+
+Face and Smile recognition in pictures using OpenCV.
+
+# Installation:
+
+pip install opencv-python 
