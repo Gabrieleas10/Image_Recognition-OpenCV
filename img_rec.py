@@ -21,8 +21,7 @@ for (x,y,w,h) in faces:
         cv2.rectangle(image , (x1,y1),(x1 + w1 , y1 + h1), (0,0,255),2)
 
 cv2.imshow('Smile Detect' ,  image)
-key = cv2.waitKey(0)
+cv2.waitKey(0)
 
-if key == ord('q'):
-    quit
+    
 
